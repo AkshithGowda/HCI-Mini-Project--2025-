@@ -1,0 +1,24 @@
+# Ignore virtual environment
+venv/
+ 
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# OneDrive junk
+*.lnk
+*.tmp
+*.ini
+*.DS_Store
+Thumbs.db
+
+# Model files
+wavesMODEL/*.pkl
+wavesMODEL/*.png
+wavesMODEL/features_epoched.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
